@@ -26,49 +26,53 @@ sh run_finetune.sh
 ```
 Then, a debiased BERT model will be saved in `./out/`.
 
+## Download dataset
+Download StereoSet test set from [here](https://github.com/McGill-NLP/bias-bench/blob/main/data/stereoset/test.json).
+Put the `test.json` in `../stereoset/data/`.
+
 ## Evaluation
 ### For original BERT
-SEAT
+**SEAT**
 ```
 cd ../seat/
 sh run_seat_original.sh
 ```
-StereoSet
+**StereoSet**
 ```
 cd ../stereoset/
 sh run_stereoset_original.sh
 sh evaluate_original.sh
 ```
-CrowS-Pairs
+**CrowS-Pairs**
 ```
 cd ../crows_pairs/
 sh run_crows_pairs_original.sh
 ```
-GLUE
+**GLUE**
 ```
 cd ../glue/
 sh run_glue_original.sh
 ```
 
 ### For debiased BERT
-SEAT
+**SEAT**
 ```
 cd ../seat/
 sh run_seat_debiased.sh
 ```
-StereoSet
+**StereoSet**
 ```
 cd ../stereoset/
 rm -rf ./out/results/
 sh run_stereoset_debiased.sh
 sh evaluate_debiased.sh
 ```
-CrowS-Pairs
+**CrowS-Pairs**
 ```
 cd ../crows_pairs/
 sh run_crows_pairs_debiased.sh
 ```
-GLUE
+**GLUE**
 ```
 cd ../glue/
 sh run_glue_debiased.sh
