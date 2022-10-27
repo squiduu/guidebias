@@ -1,0 +1,17 @@
+python guidebias.py \
+    --num_gender_words 60 \
+    --num_wiki_words 100 \
+    --num_stereo_wiki_words 10 \
+    --model_name_or_path bert-base-uncased \
+    --model_name bert \
+    --output_dir ./out/ \
+    --num_gpus 1 \
+    --batch_size 1024 \
+    --run_name guidebias \
+    --seed 0 \
+    --lr 2e-5 \
+    --num_epochs 1 \
+    --num_workers 8 \
+    --grad_accum_steps 1 \
+    --warmup_proportion 0.2 \
+    --debias_ratio 0.99
