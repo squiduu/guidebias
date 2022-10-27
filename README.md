@@ -134,4 +134,4 @@ sh run_glue_debiased.sh
 |+ INLP|42.77|63.11|10.17|
 |+ Context-Debias|61.01|51.46|6.24|
 |+ Auto-Debias|48.43|59.22|5.40|
-|+ GuiDebias (Ours)|55.35|54.37|4.86|
+|+ GuiDebias (Ours)|55.35|54.37|**4.86**|
