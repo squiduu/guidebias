@@ -1,5 +1,5 @@
 # GuiDebias
-An official scripts for "Compensatory Debiasing for Gender Imbalances in Language Models"
+An official scripts for "Compensatory Debiasing for Gender Imbalances in Language Models."
 
 ## Overview
 <p align="center">
