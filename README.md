@@ -22,12 +22,17 @@ pip install -r requirements.txt
 Fine-tune a pre-trained BERT to debias
 ```
 cd guidebias
+mkdir ./out/
 sh run_finetune.sh
 ```
 Then, a debiased BERT model will be saved in `./out/`.
 
 ## Download dataset
 Download StereoSet test set from [here](https://github.com/McGill-NLP/bias-bench/blob/main/data/stereoset/test.json).
+```
+mkdir ../stereoset/data/
+cd ../stereoset/data/
+```
 Put the `test.json` in `../stereoset/data/`.
 
 ## Evaluation
@@ -35,22 +40,26 @@ Put the `test.json` in `../stereoset/data/`.
 **SEAT**
 ```
 cd ../seat/
+mkdir ./out/
 sh run_seat_original.sh
 ```
 **StereoSet**
 ```
 cd ../stereoset/
+mkdir ./out/
 sh run_stereoset_original.sh
 sh evaluate_original.sh
 ```
 **CrowS-Pairs**
 ```
 cd ../crows_pairs/
+mkdir ./out/
 sh run_crows_pairs_original.sh
 ```
 **GLUE**
 ```
 cd ../glue/
+mkdir ./out/
 sh run_glue_original.sh
 ```
 
