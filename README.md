@@ -113,7 +113,7 @@ sh run_glue_debiased.sh
 |Ours|83.83|55.36|**74.84**|
 
 **GLUE**
-|Model|CoLA|MNLI|MRPC|QNLI|QQP|RTE|SST-2|STS-B|WNLI|Avg.|
+|Model|CoLA|MNLI|MRPC|QNLI|QQP|RTE|SST2|STSB|WNLI|Avg.|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |BERT|55.64|84.12|82.19|91.31|89.23|61.73|92.32|87.75|36.15|75.60|
 |CDA|55.31|84.56|82.76|91.16|90.18|65.46|92.54|88.03|32.86|75.87|
