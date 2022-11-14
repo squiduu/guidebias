@@ -36,7 +36,7 @@ cd ../stereoset/data/
 Put the `test.json` in `../stereoset/data/`.
 
 ## Evaluation
-All of the evaluation scripts are followed [Bias Bench](https://github.com/McGill-NLP/bias-bench/blob/main/data/stereoset/test.json).
+All of the evaluation scripts are followed [Bias Bench](https://github.com/McGill-NLP/bias-bench/blob/main/data/stereoset/test.json). However, some minor modifications were made to suit our experimental environment.
 ### For original BERT
 **SEAT**
 ```
