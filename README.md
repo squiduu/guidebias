@@ -7,7 +7,7 @@ Official scripts for "Compensatory Debiasing for Gender Imbalances in Language M
 </p>
 
 ## Installation
-This repository is available in Ubuntu 20.04 LTS, and it is not tested in other OS.
+This repository is available in Ubuntu 18.04.5 LTS, and it is not tested in other OS.
 ```
 git clone https://github.com/squiduu/guidebias.git
 cd guidebias
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Bias mitigation
-Fine-tune a pre-trained BERT to debias
+Fine-tune a pre-trained BERT to debias.
 ```
 cd guidebias
 mkdir ./out/
